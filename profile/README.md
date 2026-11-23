@@ -10,35 +10,30 @@ Die meisten sozialen Netze sind für Reichweite gebaut und verkaufen Aufmerksamk
 
 ### Zwei Seiten. Eine Kassette.
 
-**Seite A bleibt.** Das Archiv eurer Runde: Fotoabzüge, Zettel, O-Töne und Mixtapes, nach Tagen gebündelt, mit Track-Nummern statt Zeitdruck.
+**Seite A bleibt.** Das Archiv eurer Runde: Fotoabzüge, Zettel, O-Töne und Mixtapes, nach Tagen gebündelt.
 
 **Seite B läuft weiter.** Der Gruppenchat eurer Runde, für alles, was gerade im Fluss ist. Ein Tipp auf den Schalter dreht die Kassette um.
 
-<p align="center">
-  <img src="assets/feed-a.webp" width="190" alt="Seite A der Kassette „Die Kliqe“: ein Zettel zur Grillparty und ein Fotoabzug vom Grill">
-  <img src="assets/chat-b.webp" width="190" alt="Seite B der Kassette „Die Kliqe“ im Atomic-Purple-Look: der Gruppenchat">
-  <img src="assets/fach.webp" width="190" alt="Das Fach mit mehreren Kassetten in eigenen Bandsorten">
-  <img src="assets/mixtape-open.webp" width="190" alt="Ein Mixtape mit Cover, Widmung und Titelliste">
-</p>
-<p align="center"><sub>Seite A · Seite B · Das Fach · Ein Mixtape</sub></p>
+### Worauf Kliqtape verzichtet
 
-### Was es hier nicht gibt
-
-Keine Follower, keine Likes, keine Zahlen unter Beiträgen, keine Werbung, kein Tracking, keinen Algorithmus und keinen endlosen Feed. Alles läuft chronologisch. Statt eines Likes schickst du einen Tonfetzen, eine kurze Sprachreaktion, die nur die Person hört, die gepostet hat. Dein Profil sieht nur du.
+- **Keine Werbung.** Wir verkaufen weder deine Aufmerksamkeit noch deine Daten.
+- **Kein Tracking.** Keine Analyse-Tools, keine Werbe-IDs, keine Profile über dich.
+- **Kein Algorithmus.** Alles läuft chronologisch. Niemand entscheidet, was du zuerst siehst.
+- **Keine Likes und keine Zahlen.** Unter Beiträgen steht nichts zum Zählen. Statt eines Likes schickst du einen Tonfetzen, eine kurze Sprachreaktion, die nur die Person hört, die gepostet hat.
+- **Keine Follower und keine Reichweite.** Es gibt kein öffentliches Profil. Dein Profil sieht nur du.
+- **Kein endloser Feed.** Wenn du alles gesehen hast, kommt das Bandende.
 
 ### Offen gebaut
 
-Kliqtape läuft als ganz normaler Dienst, niemand muss einen Server aufsetzen. Der Code steht unter der **AGPL-3.0**, deshalb dürfen Vereine, Hochschulgruppen und andere Communities auch eine eigene Instanz betreiben. Wir sind ehrlich darüber, was der Server sieht, heute im Prototyp und als Ziel. Seite B soll Ende-zu-Ende-verschlüsselt laufen, mit dem Signal-Protokoll.
+Der Code steht unter der **AGPL-3.0**. Kliqtape läuft als ganz normaler Dienst, Vereine, Hochschulgruppen und andere Communities dürfen aber auch eine eigene Instanz betreiben. Gerade gibt es einen funktionierenden Web-Prototyp, daraus wird eine native App.
 
-Gerade gibt es einen funktionierenden Web-Prototyp (PWA). Daraus wird eine native App, im Moment in geschlossener Beta auf Einladung.
+### Zur App
 
-### Leg deine Runde ein
-
-- **[kliqtape.de](https://kliqtape.de)**: die Website, bald mit Warteliste
-- **[kliqtape/kliqtape](https://github.com/kliqtape/kliqtape)**: der Code, die Doku und wie du mitmachst
+**[kliqtape/kliqtape](https://github.com/kliqtape/kliqtape)**: Code, Screens, Doku und wie du mitmachst.<br>
+**[kliqtape.de](https://kliqtape.de)**: die Website.
 
 <br>
 
-<sub>**In short:** Kliqtape is an ad-free, algorithm-free social app for small, fixed groups of friends. Every group is a cassette: side A is the group's lasting archive, side B its ongoing group chat. No followers, no likes, no feed ranking. Open source under AGPL-3.0.</sub>
+<sub>**In short:** Kliqtape is an ad-free, algorithm-free social app for small, fixed groups of friends. Every group is a cassette: side A is the group's lasting archive, side B its ongoing group chat. No ads, no tracking, no likes, no followers. Open source under AGPL-3.0.</sub>
 
 <sub>Name, Logo und Icon von Kliqtape sind von der Code-Lizenz ausgenommen, Details in [TRADEMARKS.md](https://github.com/kliqtape/kliqtape/blob/main/TRADEMARKS.md).</sub>
