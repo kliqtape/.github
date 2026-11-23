@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+<style>
+@font-face { font-family: 'Archivo'; src: url('Archivo-Variable.woff2') format('woff2-variations'); font-weight: 100 900; font-stretch: 62% 125%; }
+@font-face { font-family: 'Caveat'; src: url('Caveat-Variable.woff2') format('woff2-variations'); font-weight: 400 700; }
+html,body { margin:0; background:transparent; }
+.b { position:relative; box-sizing:border-box; width:1280px; height:440px; border-radius:14px; overflow:hidden;
+  background:
+    radial-gradient(40rem 28rem at 88% 40%, rgba(184,70,44,.20), rgba(184,70,44,0) 70%),
+    radial-gradient(28rem 20rem at 8% 0%, rgba(208,173,97,.07), rgba(208,173,97,0) 70%),
+    #181615;
+  color:#E4DAC4; font-family:'Archivo', sans-serif; padding:56px 72px; }
+.top { display:flex; align-items:center; gap:16px; }
+.top svg { width:44px; height:44px; }
+.wm { font-weight:700; font-stretch:75%; letter-spacing:.01em; line-height:.84; text-transform:uppercase; font-size:34px; }
+.k { color:transparent; -webkit-text-stroke:max(1px,.032em) #E4DAC4; }
+h1 { margin:52px 0 0; font-weight:800; font-stretch:87.5%; text-transform:uppercase; font-size:104px; line-height:.92; letter-spacing:-.005em; }
+h1 .k { -webkit-text-stroke:2.6px #E4DAC4; }
+.claim { margin-top:30px; font-size:26px; font-weight:450; color:#9A8F7C; }
+.claim b { color:#E4DAC4; font-weight:600; }
+/* Kassette rechts, ruhig, als Material */
+.tape { position:absolute; right:72px; top:120px; width:300px; height:190px; border-radius:14px; background:#23201C;
+  box-shadow:0 1.6rem 3rem -1rem rgba(0,0,0,.6), inset 0 0 0 1px #3E3830; transform:rotate(-4deg); }
+.label { position:absolute; left:20px; right:20px; top:18px; height:112px; border-radius:6px; background:#E4DAC4; }
+.label .line { position:absolute; left:16px; right:16px; height:1px; background:rgba(35,32,28,.18); }
+.label .hand { position:absolute; left:16px; top:8px; font-family:'Caveat'; font-size:30px; font-weight:600; color:#23201C; }
+.label .side { position:absolute; right:14px; top:10px; font-weight:700; font-stretch:75%; font-size:22px; color:#23201C; }
+.win { position:absolute; left:58px; right:58px; top:58px; height:52px; border-radius:26px; background:#181615; }
+.reel { position:absolute; top:6px; width:40px; height:40px; border-radius:50%; background:#5C3A21; }
+.reel::after { content:''; position:absolute; inset:13px; border-radius:50%; background:#E4DAC4; }
+.stripe { position:absolute; left:20px; right:20px; top:140px; height:10px; border-radius:3px; background:#B8462C; }
+.holes { position:absolute; left:50%; bottom:12px; transform:translateX(-50%); display:flex; gap:56px; }
+.holes i { width:10px; height:10px; border-radius:50%; background:#181615; box-shadow:inset 0 0 0 1px #3E3830; }
+</style></head><body>
+<div class="b" id="b">
+  <div class="top">
+    <svg viewBox="0 0 64 64"><rect width="64" height="64" rx="10" fill="#23201C"/><rect x="8" y="18" width="48" height="28" rx="3" fill="#E4DAC4"/><circle cx="22" cy="32" r="7" fill="#5C3A21"/><circle cx="42" cy="32" r="7" fill="#5C3A21"/><circle cx="22" cy="32" r="2.5" fill="#E4DAC4"/><circle cx="42" cy="32" r="2.5" fill="#E4DAC4"/><rect x="8" y="49" width="48" height="4" rx="1" fill="#B8462C"/></svg>
+    <span class="wm">Kliq<span class="k">tape</span></span>
+  </div>
+  <h1>Deine Clique<br><span class="k">ist kein Feed.</span></h1>
+  <div class="claim"><b>Zwei Seiten. Eine Kassette.</b>&nbsp; Ohne Werbung, ohne Algorithmus, ohne Likes.</div>
+  <div class="tape">
+    <div class="label">
+      <div class="line" style="top:44px"></div><div class="line" style="top:100px"></div>
+      <div class="hand">Die Kliqe</div><div class="side">A</div>
+      <div class="win"><div class="reel" style="left:22px"></div><div class="reel" style="right:22px"></div></div>
+    </div>
+    <div class="stripe"></div>
+    <div class="holes"><i></i><i></i><i></i></div>
+  </div>
+</div>
+</body></html>
